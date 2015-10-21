@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SGTextField_Example', :exclusive => true do
+  pod "SGTextField", :path => "../"
+end
+
+target 'SGTextField_Tests', :exclusive => true do
+  pod "SGTextField", :path => "../"
+
+  
+end
