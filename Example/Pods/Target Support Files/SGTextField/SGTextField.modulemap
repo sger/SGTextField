@@ -1,0 +1,6 @@
+framework module SGTextField {
+  umbrella header "SGTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import SGTextField
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let textField = SGTextField(frame: CGRectMake(0.0, 100.0, 300.0, 50.0))
+        textField.backgroundColor = UIColor.grayColor()
+        textField.textEdgeInsets = UIEdgeInsetsMake(5.0, 20.0, 5.0, 5.0)
+        textField.text = "Hello World"
+        self.view.addSubview(textField)
     }
 
     override func didReceiveMemoryWarning() {
