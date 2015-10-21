@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1B4FF7042850A0097FF66819F974B01F /* SGTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3F7A24156B9E07E4623F982C8E4207 /* SGTextField.swift */; };
+		560F9784D1D305D05612DCC87BF99132 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
 		6577920614A9AB1A8E2AE2FF15624F17 /* Pods-SGTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4AC7E8F244FBC0C791CD492616D50 /* Pods-SGTextField_Example-dummy.m */; };
 		766DA727B901A3E69B3C3BA6387106F3 /* Pods-SGTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B1DF579C04C2BECEF1D2EF5AE85131 /* Pods-SGTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81CE02F13C63B6FD4EBBA6BB050BD52A /* SGTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D53C45381CA89B1FB577CEE34DF5FF4F /* SGTextField.bundle */; };
-		86CAF4224EEA540F00B86744D0733CBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		9921BE1399DBFE24CDECD447536E28B2 /* SGTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5498C10FADE230B8617A2925A7E4BCBC /* SGTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A51C6C97828D247E42F84D08FB34969E /* Pods-SGTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2DD60ADC8540406504EB675115A2A4 /* Pods-SGTextField_Tests-dummy.m */; };
 		A9ED817CCD7BCB62F2B0C4309D433EEF /* SGTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7B8627783ACDE63F04370936DE3A1E /* SGTextField-dummy.m */; };
-		BB61551510B936CC3257BEDB427DCFD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		E44004C2DED2B6037FE6DE007D0A8D58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BB61551510B936CC3257BEDB427DCFD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		CA0BF97DC98D653F64C84BA7CE016AB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		E44004C2DED2B6037FE6DE007D0A8D58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
 		F8345709A9F5E53CD99876A5CC08E102 /* Pods-SGTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA5BAC84E2B162323369DB047EE5A02 /* Pods-SGTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,13 +27,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7D61856F5F0671FDECFF933E1C39BBC1;
 			remoteInfo = SGTextField;
-		};
-		9D9149CA5B5E6CC34ECD006624750E16 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 11926CEE3228F0F41A61DCD7E3D5DFB8;
-			remoteInfo = "SGTextField-SGTextField";
 		};
 		BBAA73C4AD7A76F5755C8214EA8E37C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -51,8 +44,7 @@
 		10ED1A81CBDE063054F400E6B05258AF /* Pods-SGTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1E3AB783CD039E47CCB2DCB9A5BCEBAE /* Pods-SGTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGTextField_Tests-resources.sh"; sourceTree = "<group>"; };
 		1EC413948C169027BBA04379A93FB1F3 /* Pods-SGTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGTextField_Example-resources.sh"; sourceTree = "<group>"; };
-		26C22BB794CB69837EA3E58446DBF1C3 /* Pods_SGTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E42E8CA677AC7FED9F9564F86F97DD6 /* Pods_SGTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF4AC7E8F244FBC0C791CD492616D50 /* Pods-SGTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGTextField_Example-dummy.m"; sourceTree = "<group>"; };
 		484F205108CACC607EC9DBF8E89C0D43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5498C10FADE230B8617A2925A7E4BCBC /* SGTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGTextField-umbrella.h"; sourceTree = "<group>"; };
@@ -60,10 +52,10 @@
 		67E3AB9C410A914A62796887A6AD231D /* Pods-SGTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		68CC8C7685ABC57B3EC6900B4EA5D88B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E300D96EFD13F6D663FB4A8BAEAACEC /* Pods-SGTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75D9805B4981AEAEFDE80EC3ADA15582 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C3F7A24156B9E07E4623F982C8E4207 /* SGTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SGTextField.swift; sourceTree = "<group>"; };
 		7DA5BAC84E2B162323369DB047EE5A02 /* Pods-SGTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7DF4F98D89C6C7EDB78BFDD51A0C4D55 /* Pods_SGTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C536704BBF3E07BE34CA4B6E7A208B /* Pods-SGTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A970EF90B681F94872BA8FA0876848F0 /* Pods-SGTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B398B7ABAC4759C1DF7F48932BC6FB14 /* Pods-SGTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -71,12 +63,13 @@
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BB2DD60ADC8540406504EB675115A2A4 /* Pods-SGTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		BFC34E15AB2678817EB665BD9A4E2A52 /* SGTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGTextField.xcconfig; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		CDE45C4C00E0B6626AFEF005F4738844 /* Pods-SGTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D53C45381CA89B1FB577CEE34DF5FF4F /* SGTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7936256E68A37A10A294CE29B50A56 /* Pods-SGTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E07F03928F29C83FD4D6E82AB710677D /* SGTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGTextField-prefix.pch"; sourceTree = "<group>"; };
+		EA6717C53F5081909308170D73DF78F5 /* Pods_SGTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC8B32A85379DE73E91D6F908EE9C57 /* SGTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7B8627783ACDE63F04370936DE3A1E /* SGTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGTextField-dummy.m"; sourceTree = "<group>"; };
-		ED4EBBC0AD9FD501DC30369638407534 /* SGTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D91F8F18A1E810E90448D6C8654CFE /* Pods-SGTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,14 +82,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4404B4AC008C4BA5A76EAB634E088991 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86CAF4224EEA540F00B86744D0733CBD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7476DC1F2AE72C658EBBBE4C5B69869C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,10 +90,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A900A18BCE1C72ECAF8312F915EA57C /* Frameworks */ = {
+		87A7C12EED2B414FDD7519232344B23F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560F9784D1D305D05612DCC87BF99132 /* Foundation.framework in Frameworks */,
+				CA0BF97DC98D653F64C84BA7CE016AB0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +118,25 @@
 			path = Pod;
 			sourceTree = "<group>";
 		};
+		150FF597EC377CEDDE112313A20FF283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA6717C53F5081909308170D73DF78F5 /* Pods_SGTextField_Example.framework */,
+				3E42E8CA677AC7FED9F9564F86F97DD6 /* Pods_SGTextField_Tests.framework */,
+				EBC8B32A85379DE73E91D6F908EE9C57 /* SGTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		2E6F3501029C27920A888E4883954D49 /* Pods-SGTextField_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,15 +155,12 @@
 			path = "Target Support Files/Pods-SGTextField_Tests";
 			sourceTree = "<group>";
 		};
-		4F0CD64AF082CEE9EE72E1FA2B5EE28C /* Products */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26C22BB794CB69837EA3E58446DBF1C3 /* Pods_SGTextField_Example.framework */,
-				7DF4F98D89C6C7EDB78BFDD51A0C4D55 /* Pods_SGTextField_Tests.framework */,
-				D53C45381CA89B1FB577CEE34DF5FF4F /* SGTextField.bundle */,
-				ED4EBBC0AD9FD501DC30369638407534 /* SGTextField.framework */,
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -165,8 +168,8 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				0642DB70328431208C6A79B1191B4CE8 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4F0CD64AF082CEE9EE72E1FA2B5EE28C /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				150FF597EC377CEDDE112313A20FF283 /* Products */,
 				89AF6EE4AD88A34594188B8B67AC790A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -196,22 +199,6 @@
 			);
 			name = SGTextField;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		F0C9688FE2464D9AD9C958FA010CD3C7 /* Support Files */ = {
@@ -276,23 +263,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		11926CEE3228F0F41A61DCD7E3D5DFB8 /* SGTextField-SGTextField */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7A25E4ED353BC8736546FC627A28A749 /* Build configuration list for PBXNativeTarget "SGTextField-SGTextField" */;
-			buildPhases = (
-				9339FA7C3458E138DE9B993BDD2189D3 /* Sources */,
-				8A900A18BCE1C72ECAF8312F915EA57C /* Frameworks */,
-				53833AC09D5F18644FBC3D4DDA775FD8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SGTextField-SGTextField";
-			productName = "SGTextField-SGTextField";
-			productReference = D53C45381CA89B1FB577CEE34DF5FF4F /* SGTextField.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		4EBD412E5E03948A0B2CF4C5CFF2D9FC /* Pods-SGTextField_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46353CB51DB541AE5ECFACEAA23F6A59 /* Build configuration list for PBXNativeTarget "Pods-SGTextField_Tests" */;
@@ -308,7 +278,7 @@
 			);
 			name = "Pods-SGTextField_Tests";
 			productName = "Pods-SGTextField_Tests";
-			productReference = 7DF4F98D89C6C7EDB78BFDD51A0C4D55 /* Pods_SGTextField_Tests.framework */;
+			productReference = 3E42E8CA677AC7FED9F9564F86F97DD6 /* Pods_SGTextField_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7D61856F5F0671FDECFF933E1C39BBC1 /* SGTextField */ = {
@@ -316,18 +286,16 @@
 			buildConfigurationList = E5EA1C5966E7748DE5EF9CF85F41BECC /* Build configuration list for PBXNativeTarget "SGTextField" */;
 			buildPhases = (
 				F52E333A7B8573D743BE811927F7EEFA /* Sources */,
-				4404B4AC008C4BA5A76EAB634E088991 /* Frameworks */,
-				363ECC38C161BC2F808BE1742E961847 /* Resources */,
+				87A7C12EED2B414FDD7519232344B23F /* Frameworks */,
 				68C6F8A58FD0A8784DAE65D35911A609 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DF7884AEBA58F6BE3F80AE08109D7392 /* PBXTargetDependency */,
 			);
 			name = SGTextField;
 			productName = SGTextField;
-			productReference = ED4EBBC0AD9FD501DC30369638407534 /* SGTextField.framework */;
+			productReference = EBC8B32A85379DE73E91D6F908EE9C57 /* SGTextField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B03EC613361683052AF5A0791CFE0D25 /* Pods-SGTextField_Example */ = {
@@ -345,7 +313,7 @@
 			);
 			name = "Pods-SGTextField_Example";
 			productName = "Pods-SGTextField_Example";
-			productReference = 26C22BB794CB69837EA3E58446DBF1C3 /* Pods_SGTextField_Example.framework */;
+			productReference = EA6717C53F5081909308170D73DF78F5 /* Pods_SGTextField_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -365,35 +333,16 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4F0CD64AF082CEE9EE72E1FA2B5EE28C /* Products */;
+			productRefGroup = 150FF597EC377CEDDE112313A20FF283 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B03EC613361683052AF5A0791CFE0D25 /* Pods-SGTextField_Example */,
 				4EBD412E5E03948A0B2CF4C5CFF2D9FC /* Pods-SGTextField_Tests */,
 				7D61856F5F0671FDECFF933E1C39BBC1 /* SGTextField */,
-				11926CEE3228F0F41A61DCD7E3D5DFB8 /* SGTextField-SGTextField */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		363ECC38C161BC2F808BE1742E961847 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81CE02F13C63B6FD4EBBA6BB050BD52A /* SGTextField.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53833AC09D5F18644FBC3D4DDA775FD8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1845B5DA7EDA2F7B494A898BDBA1E170 /* Sources */ = {
@@ -409,13 +358,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A51C6C97828D247E42F84D08FB34969E /* Pods-SGTextField_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9339FA7C3458E138DE9B993BDD2189D3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,12 +384,6 @@
 			name = SGTextField;
 			target = 7D61856F5F0671FDECFF933E1C39BBC1 /* SGTextField */;
 			targetProxy = 92A64C71665B22B3C6F61F957B1384EB /* PBXContainerItemProxy */;
-		};
-		DF7884AEBA58F6BE3F80AE08109D7392 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SGTextField-SGTextField";
-			target = 11926CEE3228F0F41A61DCD7E3D5DFB8 /* SGTextField-SGTextField */;
-			targetProxy = 9D9149CA5B5E6CC34ECD006624750E16 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -645,30 +581,6 @@
 			};
 			name = Debug;
 		};
-		D6C3AFAC8A8C19BBCCAA7E071F092345 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFC34E15AB2678817EB665BD9A4E2A52 /* SGTextField.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SGTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		D8E1A3F8878DE7C3210C181E7B6C5A47 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFC34E15AB2678817EB665BD9A4E2A52 /* SGTextField.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SGTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		E869A98FE0A1310F6939ABDB9546773E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67E3AB9C410A914A62796887A6AD231D /* Pods-SGTextField_Tests.release.xcconfig */;
@@ -752,15 +664,6 @@
 			buildConfigurations = (
 				B49C6198C0888FC0EF7EA85B4DFED09C /* Debug */,
 				3DEB1BBDCAED2DA8306455DB25A9695C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7A25E4ED353BC8736546FC627A28A749 /* Build configuration list for PBXNativeTarget "SGTextField-SGTextField" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8E1A3F8878DE7C3210C181E7B6C5A47 /* Debug */,
-				D6C3AFAC8A8C19BBCCAA7E071F092345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
